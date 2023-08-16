@@ -2,10 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Halaman Profil Bandung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Page Surabaya</title>
 
     <!-- My Own Styles -->
     <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
@@ -13,12 +16,13 @@
 
   <body>
     <header>
-      <h1>Bandung</h1>
-      <p>
-        Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi
-        tersebut.
-      </p>
-
+      <div class="jumbotron">
+        <h1>Surabaya</h1>
+        <p>
+          Kota metropolitan terbesar di Provinsi Jawa Timur, sekaligus menjadi ibu kota provinsi
+          tersebut.
+        </p>
+      </div>
       <nav>
         <ul>
           <li>
@@ -32,14 +36,15 @@
           </li>
         </ul>
       </nav>
+      
     </header>
 
     <main>
       <!-- Konten artikel -->
       <div id="content">
-        <article id="sejarah">
+        <article id="sejarah" class="card">
           <h2>Sejarah</h2>
-          <img src="assets/image/history.jpg" alt="sejarah" />
+          <img src="assets/image/surabaya-history.jpg" class="featured-image" alt="sejarah" />
           <p>
             Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai
             Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang
@@ -60,9 +65,9 @@
           </p>
         </article>
 
-        <article id="geografis">
+        <article id="night-view" class="card">
           <h2>Geografis</h2>
-          <img src="assets/image/geografis.jpg" alt="geografis" />
+          <img src="assets/image/night-view.jpg" class="featured-image" alt="geografis" />
           <p>
             Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan
             sebuah mangkok raksasa,[9] secara geografis kota ini terletak di tengah-tengah provinsi
@@ -80,7 +85,7 @@
           </p>
         </article>
 
-        <article id="wisata">
+        <article id="wisata" class="card">
           <h2>Wisata</h2>
           <p>
             Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam
@@ -90,8 +95,8 @@
           </p>
 
           <section>
-            <h3>Farm House Lembang</h3>
-            <img src="assets/image/farm-house.jpg" alt="farm house" />
+            <h3>Wisata Air Kalimas</h3>
+            <img src="assets/image/wisata-kalimas.jpg" class="featured-image" alt="Wisata Kalimas" />
             <p>
               Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak
               pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga
@@ -101,8 +106,8 @@
           </section>
 
           <section>
-            <h3>Observatorium Bosscha</h3>
-            <img src="assets/image/bosscha.jpg" alt="bosscha" />
+            <h3>Pantai Eksotis Kenjeran</h3>
+            <img src="assets/image/kenjeran-beach.jpg" class="featured-image" alt="bosscha" />
             <p>
               Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti,
               Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah
@@ -119,12 +124,12 @@
 
       <!-- Konten samping -->
       <aside>
-        <article>
+        <article class="profile  card">
           <header>
-            <h2>Kota Bandung</h2>
-            <p>Kota Kembang Paris van Java</p>
+            <h2>Kota Surabaya</h2>
+            <p>The City of Many Indonesian's Heroes </p>
             <figure>
-              <img src="assets/image/bandung-badge.png" />
+              <img src="assets/image/surabaya-profile.png" />
               <figcaption>Lambang</figcaption>
             </figure>
           </header>
@@ -147,7 +152,7 @@
               </tr>
               <tr>
                 <th>Bahasa Daerah</th>
-                <td>Sunda</td>
+                <td>Jawa</td>
               </tr>
               <tr>
                 <th>Kode Telepon</th>
@@ -160,7 +165,7 @@
     </main>
 
     <footer>
-      <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
+      <p>Belajar Dasar Pemrograman Web &#169; 2023, Dicoding Academy</p>
     </footer>
   </body>
 </html>

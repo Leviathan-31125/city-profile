@@ -1,2 +1,5 @@
-# Belajar Dasar Pemrograman Web
-Silakan lihat branch yang tersedia untuk melihat kode yang digunakan pada kelas [Belajar Dasar Pemrograman Web](https://www.dicoding.com/academies/123/).
+# Web Profile of Surabaya City
+== 
+this project as a dummy project to enhance my techskill at web development, especially Front-End.
+
+***Cohort BANGKIT 2023***
